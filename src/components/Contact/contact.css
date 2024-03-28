@@ -1,0 +1,67 @@
+.contact{
+    display: flex;
+    width:1440px;
+    height:550px;
+    padding: 160px 80px 160px 80px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+}
+.contact-container{
+    width:1280px;
+    height:230px;
+    gap: 40px;
+}
+.title{
+    width:1280px;
+    height:134px;
+    gap: 32px;
+    color: white;
+}
+
+/* TEXT'S */
+.title h3{
+    font-family:'Courier Premier', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+title p{
+    font-family:'Kanit',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29.9px;
+    text-align: left;
+}
+
+.contact-button{
+    width:159px;
+    height:56px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border-radius: 2px 0px 0px 0px;
+    background: #FD5A14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-btn{
+    border: none;
+    background: #FD5A14;
+}
+
+.contact-button a{
+    text-decoration: none;
+    color: white;
+    background: #FD5A14;
+    font-family: 'Inter'sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+

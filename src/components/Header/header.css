@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
+header{
+    height:100px;
+    padding: 32px, 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.logo{
+    width:173px;
+    height:36px;
+    gap: 10px;
+}
+
+.logo h2{
+    font-family: 'Courier New',sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.25px;
+    text-align: left;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    width:362px;
+    height:22px;
+    gap: 32px;
+}
+
+.menu a{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+/* PROMO CSS */
+
+.promo{
+    width: 1440px;
+    height: 622px;
+    padding: 160px 80px 160px 80px; 
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    width:1,280px;
+    height:302px;
+    gap: 40px;
+}
+.title{
+    color: white;
+    width:1280px;
+    height:206px;
+    gap: 32px;
+
+}
+.title h2{
+    font-family: 'Courier New',sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+
+.title p{
+    font-family: 'Kanit',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29.9px;
+    text-align: left;
+    margin-top: 50px;
+}
+.btn{
+    width:200px;
+    height:56px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 2px 0px 0px 0px;
+    margin-top: 50px;
+    background-color: #FD5A14;
+}
+.btn-welcome{
+
+    display: flex;
+    gap: 10px;
+}
+.btn-welcome a{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    background-color: #FD5A14;
+
+}
